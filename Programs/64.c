@@ -8,13 +8,13 @@
 
 void main(void)
 {
-    int array[100], i, numberOfValues, largestValue, secondLargestValue;
+    int array[100], i, numberOfElements, largestValue, secondLargestValue;
 
     printf("\n Enter the number of elements for your array :-");
-    scanf("%d", &numberOfValues);
+    scanf("%d", &numberOfElements);
 
-    printf("\n Enter %d elements of your array :- ", numberOfValues);
-    for ( i = 0; i < numberOfValues; i++)
+    printf("\n Enter %d elements of your array :- ", numberOfElements);
+    for ( i = 0; i < numberOfElements; i++)
     {
         scanf("%d", &array[i]);
     }
@@ -30,7 +30,7 @@ void main(void)
         largestValue = array[1];
     }
 
-    for (i = 2; i < numberOfValues; i++)
+    for (i = 2; i < numberOfElements; i++)
     {
         if (array[i] > largestValue)
         {

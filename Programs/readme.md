@@ -18,7 +18,7 @@
         c.) Using type 3 (function that does not takes argument but returns value)
         d.) Using type 4 (function that nither takes argument nor returns value)
 
-70 -> Write a program to calculate :- 1 + x + x^2 + x^3 + ...... + x^n
+70 -> Write a program to calculate the Finite Geometric Series i.e. :- 1 + x + x^2 + x^3 + ...... + x^n
         a.) Using type 1 (function that takes argument and returns value)
         b.) Using type 2 (function that takes argument but does not returns value)
         c.) Using type 3 (function that does not takes argument but returns value)

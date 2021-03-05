@@ -18,20 +18,20 @@ void main(void)
 
 int calculateFactorial(void) //Function defination that has function body
 {
-    int enteredNumber, factorial;
+    int enteredNumber, result;
 
     printf("\n Enter the number whose factorial has to be found :- ");
     scanf("%d", &enteredNumber);
 
     printf("\n Factorial of %d", enteredNumber);
 
-    factorial = 1;
+    result = 1;
 
     while (enteredNumber > 0)
     {
-        factorial = factorial * enteredNumber;
+        result = result * enteredNumber;
         enteredNumber--;
     }
     
-    return(factorial);
+    return(result);
 }

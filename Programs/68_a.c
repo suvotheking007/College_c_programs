@@ -22,13 +22,13 @@ void main(void)
 
 int calculateFactorial(int enteredNumber) //Function defination that has the function body
 {
-    int factorial = 1;
+    int result = 1;
 
     while (enteredNumber > 0)
     {
-        factorial = factorial * enteredNumber;
+        result = result * enteredNumber;
         enteredNumber--;
     }
     
-    return(factorial);
+    return(result);
 }

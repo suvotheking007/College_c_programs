@@ -19,16 +19,16 @@ void main(void)
 
 void printFactorial(int enteredNumber) //Function defination that has the function body
 {
-    int factorial, temp;
+    int result, temp;
 
-    factorial = 1;
+    result = 1;
     temp = enteredNumber;
 
     while (enteredNumber > 0)
     {
-        factorial = factorial * enteredNumber;
+        result = result * enteredNumber;
         enteredNumber --;
     }
 
-    printf("\n Factorial of %d is :- %d",temp ,factorial);
+    printf("\n Factorial of %d is :- %d",temp ,result);
 }

@@ -7,6 +7,12 @@
                 hence there is only one element and there is no other element to compare
                 with, on that case the second largest value that the program will give
                 is that one value you entered.
+
+ LIMITATIONS -> The array named "array" that has been initialized in this program is an
+                integer array of length 100 blocks, hence this array can store upto 100
+                elements, however if the user wants to store less than 100 elements than
+                the other blocks are of no use but gets registered in the memory and the
+                memory thus gets wasted. 
 */
 
 

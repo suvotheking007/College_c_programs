@@ -9,7 +9,7 @@
                 is that one value you entered.
 
  LIMITATIONS -> The array named "array" that has been initialized in this program is an
-                integer array of length 100 blocks, hence this array can store upto 100
+                integer array of length 100 blocks, hence this array can store only upto 100
                 elements, however if the user wants to store less than 100 elements than
                 the other blocks are of no use but gets registered in the memory and the
                 memory thus gets wasted. 
@@ -75,7 +75,7 @@ void main(void)
      * the array is more than 2, 
      * The program continues in this loop and check if each array element (from third
      * element onwards) is bigger than the prevoiusly stored value of "largestValue"
-     * and "secondLargest" value or not and at the end of the execution we get the
+     * and "secondLargestValue" variable or not and at the end of the execution we get the
      * largest and second largest value among the array elements in the variables 
      * "largestValue" and "secondLargestValue".
     */

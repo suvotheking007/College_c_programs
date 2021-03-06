@@ -17,21 +17,22 @@ void main(void)
 
     result = calculateFiniteGeometricSeries(x, n);
 
+    //Forming the output string
     printf("\n The value of the Finite Geometric Series :-");
     printf(" 1 + %d", x);
     for (int i = 2; i <= n; i++)
     {
         printf(" + %d^%d", x, i);
     }
-    printf(" is :- %d", result);
+    printf(" is :- %d.", result);
 }
 
 int calculateFiniteGeometricSeries(int x, int n)
 {
     int term, result;
 
+    //Evaluation of the series and geting the resultant value in the variable "result"
     term = result = 1;
-
     while (n > 0)
     {   
         term = term * x;
